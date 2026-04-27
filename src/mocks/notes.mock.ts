@@ -1,0 +1,48 @@
+import { NoteModel } from '@/src/models/note.model';
+
+export const mockNotes: NoteModel[] = [
+  {
+    id: '1',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    color: '#16A34A',
+    columnId: 1,
+    retroId: '1',
+    order: 'a0',
+    authorId: 1,
+    agree: 1,
+    disagree: 2,
+  },
+  {
+    id: '2',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    color: '#16A34A',
+    columnId: 1,
+    retroId: '1',
+    order: 'a1',
+    authorId: 2,
+    agree: 2,
+    disagree: 2,
+  },
+  {
+    id: '3',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    color: '#2563EB',
+    columnId: 2,
+    retroId: '1',
+    order: 'a0',
+    authorId: 3,
+    agree: 1,
+    disagree: 2,
+  },
+  {
+    id: '4',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    color: '#DC2626',
+    columnId: 2,
+    retroId: '1',
+    order: 'a1',
+    authorId: 1,
+    agree: 1,
+    disagree: 2,
+  },
+];

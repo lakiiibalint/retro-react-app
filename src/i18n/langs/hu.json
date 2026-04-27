@@ -1,0 +1,158 @@
+{
+  "COMMON": {
+    "APP_NAME": "RetroBoard",
+    "IMAGE_PREVIEW": "Előnézet",
+    "BUTTONS": {
+      "SAVE": "Mentés",
+      "CANCEL": "Mégse",
+      "DELETE": "Törlés",
+      "CLOSE": "Bezárás",
+      "LOADING": "Betöltés...",
+      "ERROR": "Hiba történt",
+      "BACK": "Vissza",
+      "SUBMIT": "Létrehozás",
+      "EDIT": "Módosítás",
+      "CONFIRM": "Igen",
+      "LOGOUT": "Kijelentkezés",
+      "LOGIN": "Bejelentkezés",
+      "REGISTER": "Regisztráció",
+      "REGISTERED": "Regisztráltál már?",
+      "NO_ACCOUNT": "Regisztrálj itt!"
+    },
+    "NAV": {
+      "PROJECTS": "Projektek",
+      "USERS": "Felhasználók",
+      "MAIN_MENU": "Fő menü"
+    },
+    "AUTH": {
+      "LOGGED_IN_AS": "Bejelentkezve:",
+      "LOGIN_TITLE": "Bejelentkezés",
+      "REGISTER_TITLE": "Regisztráció",
+      "EMAIL_LABEL": "E-mail",
+      "EMAIL_PLACEHOLDER": "john10@gmail.com",
+      "PASSWORD_LABEL": "Jelszó",
+      "PASSWORD_PLACEHOLDER": "Jelszó",
+      "NAME_LABEL": "Név",
+      "NAME_PLACEHOLDER": "John"
+    },
+    "ERRORS": {
+      "FIELD_MIN_LENGTH": "A szöveg túl rövid ",
+      "FIELD_MAX_LENGTH": "A szöveg túl hosszú ",
+      "FIELD_REQUIRED": "A mező kitöltése kötelező!",
+      "PROJECT_NOT_FOUMD": "Nincs ilyen project",
+      "PROJECT_NOT_FOUND": "Projekt nem található"
+    },
+    "SAVE": "Mentve"
+  },
+  "USERS": {
+    "NAME": "Felhasználónév",
+    "ROLE": "Szerepkör",
+    "EMAIL": "E-mail",
+    "ROLE_USER": "Userek",
+    "ROLE_PM": "PM-ek",
+    "ROLE_CHANGE": "Jogkör módosítása"
+  },
+  "PROJECTS": {
+    "TITLE": "Projektek",
+    "ADD_PROJECT": "Projekt hozzáadása",
+    "DETAILS": "Részletek",
+    "ACTIVE": "Aktív retro",
+    "CLOSED": "Nincs aktív retro",
+    "ADD_MEMBER": "Hozzáadás",
+    "EMPTY": "Még nem vagy hozzárendelve egyetlen projekthez sem.",
+    "MODAL": {
+      "MEMBERS_LABEL": "Tagok hozzáadása",
+      "TITLE": "Projekt hozzáadása",
+      "NAME_LABEL": "Projekt neve *",
+      "NAME_PLACEHOLDER": "pl. Phoenix Platform",
+      "DESCRIPTION_LABEL": "Leírás",
+      "DESCRIPTION_PLACEHOLDER": "Rövid projekt leírás...",
+      "COVER_IMAGE": "Kép feltöltése",
+      "COVER_IMAGE_PLACEHOLDER": "https://..."
+    },
+    "SETTINGS": {
+      "EDIT": "Szerkesztés",
+      "CURRENT_MEMBER_DELETE": "Jelenlegi tagok törlése",
+      "MEMBER_ADD": "Tagok hozzáadása",
+      "COLUMN_ADD": "Oszlop hozzáadása",
+      "COLUMN_EDIT": "Oszlopok kezelése",
+      "RETRO_COLUMN_EDIT_PLACEHOLDER": "Válassz retrót!",
+      "COLUMN_LABEL": "Oszlop neve",
+      "COLUMN_PLACEHOLDER": "...",
+      "DELETE": "Projekt törlése",
+      "DELETE_MODAL": "Biztosan törli a projektet?",
+      "MEMBERS_EMPTY": "Jelenleg nincsenek tagok"
+    },
+    "STATS": {
+      "RETROS_COUNT": "Retrók száma",
+      "NOTE": "Note",
+      "NOTES_BY_COLUMN": "Note-ok oszlopok szerint",
+      "COLUMNS": "Oszlopok",
+      "NOTE_COUNT": "Note-ok száma",
+      "UPVOTES_TITLE": "Legtöbb upvote-ot kapott note-ok"
+    }
+  },
+  "PROJECT_DETAIL": {
+    "TABS": {
+      "RETROS": "Retrók",
+      "STATS": "Statisztika",
+      "SETTINGS": "Beállítások"
+    }
+  },
+  "RETRO": {
+    "ADD_RETRO": "+ Retro hozzáadása",
+    "START": "Indítás",
+    "JOIN": "Csatlakozás",
+    "VIEW": "Megtekintés",
+    "EMPTY": "Még nincs retro ehhez a projekthez",
+    "NOTE": "Note",
+    "CLOSE": "Lezárás",
+    "CLOSE_MODAL_TITLE": "Biztosan lezárja?",
+    "NOTES": {
+      "ADD_MODAL": {
+        "DESCRIPTION_LABEL": "Leírás",
+        "DESCRIPTION_PLACEHOLDER": "Jegyzet leírás...",
+        "COLOR": "Válassz színt!",
+        "TITLE": "Jegyzet hozzáadása"
+      },
+      "DELETE_MODAL": {
+        "TITLE": "Biztosan törli?"
+      },
+      "EDIT_MODAL": {
+        "TITLE": "Szerkesztés"
+      },
+      "MERGE_MODAL": {
+        "TITLE": "Biztosan összevonja?"
+      }
+    },
+    "ACTION_ITEMS": {
+      "MODAL": {
+        "TITLE": "Action Item létrehozása",
+        "EDIT_MODAL_TITLE": "Action item szerkesztése",
+        "NOTE_TO_ACTION_MODAL_TITLE": "Note actionné alakítása",
+        "NAME_LABEL": "Feladat neve *",
+        "NAME_PLACEHOLDER": "pl. CI pipeline javítása",
+        "DESCRIPTION_LABEL": "Leírás",
+        "DESCRIPTION_PLACEHOLDER": "Leírás...",
+        "DUE_DATE_LABEL": "Határidő",
+        "ASSIGNEE_LABEL": "Felelős",
+        "NO_ASSIGNEE": "Nincs hozzárendelve"
+      },
+      "ACTION_ITEM": "Action item",
+      "DONE_BUTTON": "Visszavon",
+      "REVOKE_BUTTON": "Kész"
+    },
+    "MODAL": {
+      "TITLE": "Retro hozzáadása",
+      "DESCRIPTION": "Rövid retro leírás",
+      "DESCRIPTION_LABEL": "Leírás",
+      "NAME": "Retro neve *",
+      "NAME_PLACEHOLDER": "Név",
+      "START_DATE": "Kezdés"
+    },
+    "COLUMNS": {
+      "LOADING": "Az oszlopok betöltésre várnak",
+      "ERROR": "Hiba történt"
+    }
+  }
+}
